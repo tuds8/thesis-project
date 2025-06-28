@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		687875D62D81B79E00A0CDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687875BD2D81B79D00A0CDA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687875C42D81B79D00A0CDA0;
+			remoteInfo = VirtualCane;
+		};
+		687875E02D81B79E00A0CDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687875BD2D81B79D00A0CDA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687875C42D81B79D00A0CDA0;
+			remoteInfo = VirtualCane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		687875C52D81B79D00A0CDA0 /* VirtualCane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualCane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687875D52D81B79E00A0CDA0 /* VirtualCaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualCaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687875DF2D81B79E00A0CDA0 /* VirtualCaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualCaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		68280C522DF4FBDF003D9CA8 /* Exceptions for "VirtualCane" folder in "VirtualCane" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 687875C42D81B79D00A0CDA0 /* VirtualCane */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		687875C72D81B79D00A0CDA0 /* VirtualCane */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				68280C522DF4FBDF003D9CA8 /* Exceptions for "VirtualCane" folder in "VirtualCane" target */,
+			);
+			path = VirtualCane;
+			sourceTree = "<group>";
+		};
+		687875D82D81B79E00A0CDA0 /* VirtualCaneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VirtualCaneTests;
+			sourceTree = "<group>";
+		};
+		687875E22D81B79E00A0CDA0 /* VirtualCaneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VirtualCaneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687875C22D81B79D00A0CDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687875D22D81B79E00A0CDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687875DC2D81B79E00A0CDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687875BC2D81B79D00A0CDA0 = {
+			isa = PBXGroup;
+			children = (
+				687875C72D81B79D00A0CDA0 /* VirtualCane */,
+				687875D82D81B79E00A0CDA0 /* VirtualCaneTests */,
+				687875E22D81B79E00A0CDA0 /* VirtualCaneUITests */,
+				687875C62D81B79D00A0CDA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687875C62D81B79D00A0CDA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687875C52D81B79D00A0CDA0 /* VirtualCane.app */,
+				687875D52D81B79E00A0CDA0 /* VirtualCaneTests.xctest */,
+				687875DF2D81B79E00A0CDA0 /* VirtualCaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687875C42D81B79D00A0CDA0 /* VirtualCane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687875E92D81B79E00A0CDA0 /* Build configuration list for PBXNativeTarget "VirtualCane" */;
+			buildPhases = (
+				687875C12D81B79D00A0CDA0 /* Sources */,
+				687875C22D81B79D00A0CDA0 /* Frameworks */,
+				687875C32D81B79D00A0CDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				687875C72D81B79D00A0CDA0 /* VirtualCane */,
+			);
+			name = VirtualCane;
+			packageProductDependencies = (
+			);
+			productName = VirtualCane;
+			productReference = 687875C52D81B79D00A0CDA0 /* VirtualCane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687875D42D81B79E00A0CDA0 /* VirtualCaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687875EC2D81B79E00A0CDA0 /* Build configuration list for PBXNativeTarget "VirtualCaneTests" */;
+			buildPhases = (
+				687875D12D81B79E00A0CDA0 /* Sources */,
+				687875D22D81B79E00A0CDA0 /* Frameworks */,
+				687875D32D81B79E00A0CDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687875D72D81B79E00A0CDA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				687875D82D81B79E00A0CDA0 /* VirtualCaneTests */,
+			);
+			name = VirtualCaneTests;
+			packageProductDependencies = (
+			);
+			productName = VirtualCaneTests;
+			productReference = 687875D52D81B79E00A0CDA0 /* VirtualCaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687875DE2D81B79E00A0CDA0 /* VirtualCaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687875EF2D81B79E00A0CDA0 /* Build configuration list for PBXNativeTarget "VirtualCaneUITests" */;
+			buildPhases = (
+				687875DB2D81B79E00A0CDA0 /* Sources */,
+				687875DC2D81B79E00A0CDA0 /* Frameworks */,
+				687875DD2D81B79E00A0CDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687875E12D81B79E00A0CDA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				687875E22D81B79E00A0CDA0 /* VirtualCaneUITests */,
+			);
+			name = VirtualCaneUITests;
+			packageProductDependencies = (
+			);
+			productName = VirtualCaneUITests;
+			productReference = 687875DF2D81B79E00A0CDA0 /* VirtualCaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687875BD2D81B79D00A0CDA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					687875C42D81B79D00A0CDA0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					687875D42D81B79E00A0CDA0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 687875C42D81B79D00A0CDA0;
+					};
+					687875DE2D81B79E00A0CDA0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 687875C42D81B79D00A0CDA0;
+					};
+				};
+			};
+			buildConfigurationList = 687875C02D81B79D00A0CDA0 /* Build configuration list for PBXProject "VirtualCane" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687875BC2D81B79D00A0CDA0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 687875C62D81B79D00A0CDA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687875C42D81B79D00A0CDA0 /* VirtualCane */,
+				687875D42D81B79E00A0CDA0 /* VirtualCaneTests */,
+				687875DE2D81B79E00A0CDA0 /* VirtualCaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687875C32D81B79D00A0CDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687875D32D81B79E00A0CDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687875DD2D81B79E00A0CDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687875C12D81B79D00A0CDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687875D12D81B79E00A0CDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687875DB2D81B79E00A0CDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687875D72D81B79E00A0CDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687875C42D81B79D00A0CDA0 /* VirtualCane */;
+			targetProxy = 687875D62D81B79E00A0CDA0 /* PBXContainerItemProxy */;
+		};
+		687875E12D81B79E00A0CDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687875C42D81B79D00A0CDA0 /* VirtualCane */;
+			targetProxy = 687875E02D81B79E00A0CDA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		687875E72D81B79E00A0CDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		687875E82D81B79E00A0CDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687875EA2D81B79E00A0CDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualCane/Preview Content\"";
+				DEVELOPMENT_TEAM = CMPFZVSZT8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualCane/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Virtual Cane";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuds.VirtualCane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				a = "";
+			};
+			name = Debug;
+		};
+		687875EB2D81B79E00A0CDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualCane/Preview Content\"";
+				DEVELOPMENT_TEAM = CMPFZVSZT8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualCane/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Virtual Cane";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuds.VirtualCane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				a = "";
+			};
+			name = Release;
+		};
+		687875ED2D81B79E00A0CDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CMPFZVSZT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuds.VirtualCaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualCane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualCane";
+			};
+			name = Debug;
+		};
+		687875EE2D81B79E00A0CDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CMPFZVSZT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuds.VirtualCaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualCane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualCane";
+			};
+			name = Release;
+		};
+		687875F02D81B79E00A0CDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CMPFZVSZT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuds.VirtualCaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualCane;
+			};
+			name = Debug;
+		};
+		687875F12D81B79E00A0CDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CMPFZVSZT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuds.VirtualCaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualCane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687875C02D81B79D00A0CDA0 /* Build configuration list for PBXProject "VirtualCane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687875E72D81B79E00A0CDA0 /* Debug */,
+				687875E82D81B79E00A0CDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687875E92D81B79E00A0CDA0 /* Build configuration list for PBXNativeTarget "VirtualCane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687875EA2D81B79E00A0CDA0 /* Debug */,
+				687875EB2D81B79E00A0CDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687875EC2D81B79E00A0CDA0 /* Build configuration list for PBXNativeTarget "VirtualCaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687875ED2D81B79E00A0CDA0 /* Debug */,
+				687875EE2D81B79E00A0CDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687875EF2D81B79E00A0CDA0 /* Build configuration list for PBXNativeTarget "VirtualCaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687875F02D81B79E00A0CDA0 /* Debug */,
+				687875F12D81B79E00A0CDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687875BD2D81B79D00A0CDA0 /* Project object */;
+}
