@@ -93,6 +93,24 @@ struct ContentView: View {
                 .position(x: geo.size.width / 2, y: geo.size.height / 2)
             }
             .edgesIgnoringSafeArea(.all)
+            
+            // benchmark data
+            VStack {
+                Spacer().frame(height: 30)
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text("FPS: \(Int(sessionHandler.currentFPS))")
+                        Text(String(format: "Lat: %.1f ms", sessionHandler.yoloLatency))
+                    }
+                    .font(.footnote.monospacedDigit())
+                    .foregroundColor(.white)
+                    .padding(8)
+                    .background(.black.opacity(0.6))
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    Spacer()
+                }.padding(.leading, 16)
+                Spacer()
+            }
 
             // top toggles
             VStack {

@@ -48,6 +48,13 @@ final class ARSessionHandler: NSObject, ARSessionDelegate, ObservableObject {
     private var latestDistance: Float?
     private var latestMinPoint: CGPoint?
     private var latestSegMask: MLMultiArray?
+    
+    // Benchmark
+    private var lastFrameTimestamps: [CFTimeInterval] = []
+    private let fpsSampleSize = 30
+    @Published var currentFPS: Double = 0
+    @Published var yoloLatency: Double = 0
+    private var yoloStartTime: CFTimeInterval?
 
     // Copied buffers
     private var rgbCopy:   CVPixelBuffer?
@@ -124,6 +131,20 @@ final class ARSessionHandler: NSObject, ARSessionDelegate, ObservableObject {
 
     // MARK: – AR delegate
     func session(_ session: ARSession, didUpdate frame: ARFrame) {
+        let now = CACurrentMediaTime()
+        lastFrameTimestamps.append(now)
+
+        if lastFrameTimestamps.count > fpsSampleSize {
+            lastFrameTimestamps.removeFirst()
+            let duration = lastFrameTimestamps.last! - lastFrameTimestamps.first!
+            let fps = Double(fpsSampleSize - 1) / duration
+
+            DispatchQueue.main.async {
+                self.currentFPS = fps
+            }
+        }
+        yoloStartTime = CACurrentMediaTime()
+        
         guard !isProcessingFrame else { return }
         isProcessingFrame = true
 
@@ -153,6 +174,14 @@ final class ARSessionHandler: NSObject, ARSessionDelegate, ObservableObject {
             let dist  = depthCopy.flatMap { self.avgNearestDepth(in: rect, topN: 20, buf: $0) }
             boxes.append(.init(label: label, confidence: o.confidence,
                                distance: dist, rect: rect))
+        }
+        if let start = yoloStartTime {
+            let end = CACurrentMediaTime()
+            let latency = (end - start) * 1000
+
+            DispatchQueue.main.async {
+                self.yoloLatency = latency
+            }
         }
         DispatchQueue.main.async { self.detectionBoxes = boxes }
 
