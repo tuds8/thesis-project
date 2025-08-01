@@ -1,28 +1,12 @@
-# AI-Powered Virtual White Cane
+# AI-Powered Virtual White Cane 
 
-**Candidate:** Tudor-Sorin Ciutacu\
-**Supervisors:** As. prof. dr. eng. Cosmin Cernăzanu-Glăvan, Drd. eng. Andrei-Ștefan Bulzan\
-**Academic Year:** 2024-2025 
-
-_Computers and Information Technology, AC, UPT_
-
----
-
-## 📑 Project Description
+## Project Description
 
 The **AI-Powered Virtual White Cane** is a mobile application designed to assist visually impaired users by detecting obstacles using real-time object detection, semantic segmentation, and LiDAR-based distance estimation. The app runs fully on-device, providing haptic and audio feedback at three levels of intensity, helping users navigate safely.
 
 ---
 
-## 🔗 Repository Address
-
-The project can be accessed at the following GitLab address of the repository:
-
-> [https://gitlab.upt.ro/tudor.ciutacu/virtual-cane](https://gitlab.upt.ro/tudor.ciutacu/virtual-cane)
-
----
-
-## 🧩 Technology Stack
+## Technology Stack
 
 * **Language:** Swift 6
 * **Frameworks:** CoreML, Vision, ARKit, RealityKit, SwiftUI
@@ -32,7 +16,7 @@ The project can be accessed at the following GitLab address of the repository:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 📁 VirtualCane/
@@ -55,7 +39,7 @@ The project can be accessed at the following GitLab address of the repository:
 
 ---
 
-## 📦 Deliverables
+## Deliverables
 
 * Full Swift source code (without compiled binaries):
 * `models/` folder containing the required models
@@ -68,7 +52,7 @@ The project can be accessed at the following GitLab address of the repository:
 
 ---
 
-## ⚙️ Build Steps
+## Build Steps
 
 > **Note**\
 > In order to build the project a system running macOS is required. Currently it is the only platform supported.
@@ -101,7 +85,7 @@ The project can be accessed at the following GitLab address of the repository:
 
 ---
 
-## 🚀 Installation & Launch
+## Installation & Launch
 
 1. Connect your **iPhone** to your development machine (macOS system).
 
@@ -130,7 +114,7 @@ The project can be accessed at the following GitLab address of the repository:
 > The app will be available for 7 days on a free developer account. After the period of 7 days expires the app will need to be re-deployed on device.
 ---
 
-## ✅ Requirements
+## Requirements
 
 * macOS (version **14** or later) with **Xcode 14+**
 * **iPhone 12 Pro or newer** with LiDAR sensor
@@ -139,7 +123,7 @@ The project can be accessed at the following GitLab address of the repository:
 
 ---
 
-## 📌 Notes
+## Notes
 
 * The repository does **not** contain any compiled binaries.
 * This version is tested on **iOS 17+** with LiDAR-capable iPhones.
@@ -148,7 +132,7 @@ The project can be accessed at the following GitLab address of the repository:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
